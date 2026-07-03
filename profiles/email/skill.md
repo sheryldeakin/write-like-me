@@ -24,7 +24,7 @@ Reduce the blank-page block on email. Load my standing email style guide, take t
 
 ### Step 1: Load my voice
 
-Read the style guide in full: Core voice, the four-part skeleton, the tone ladder, conciseness rules, anti-patterns, the `## Email-specific tells` scrub list, the `## Phrasing bank` (my calibrated go-to phrasings), the `## Email types and tone` map, the `## Recipients` profiles, `## Observed patterns`, and any `## Good examples`. Read the snippets file for more reusable phrasings. The `## Good examples` (real emails I liked) outrank any written rule; match those first. Reach for the `## Phrasing bank` phrasings as defaults. In the `## Email types and tone` map, find the entry closest to the email I'm writing and start the tone from there (open its linked draft as a worked example if useful). Honor the AI-tell catalog with the sincerity caveat: my sincere warmth and hedging are voice, not tells.
+Read the style guide in full: Core voice, the four-part skeleton, the tone ladder, conciseness rules, anti-patterns, the `## Email-specific tells` scrub list, the `## Phrasing bank` (my calibrated go-to phrasings), the `## Email types and tone` map, the `## Recipients` profiles, `## Observed patterns`, and any `## Good examples`. Read the snippets file for more reusable phrasings. The `## Good examples` (real emails I liked) outrank any written rule; match those first. Reach for the `## Phrasing bank` phrasings as defaults. In the `## Email types and tone` map, find the entry closest to the email I'm writing and start the tone from there (open its linked draft as a worked example if useful). Honor the AI-tell catalog with the sincerity caveat: whatever the style guide marks as my voice (warmth, hedging, bluntness, formality) is voice, not a tell. The test is sincerity, not blandness.
 
 ### Step 2: Understand the task
 
@@ -43,7 +43,7 @@ If the task line already answers these, skip the questions and draft.
 
 ### Step 3: Draft
 
-Write the email using the four-part skeleton at the right rung. Warm opener when there's prior connection; polite request framing for any ask; clear next step left open enough for them to adjust. Keep it concise but never cold.
+Write the email using the four-part skeleton at the right rung, in the register my Core voice and the recipient's entry prescribe. Clear ask; clear next step left open enough for them to adjust. Keep it concise without flattening my voice.
 
 **Before showing any draft (including every revision in Step 4), run a final audit on the text:** no formatting tells, no emojis, no set-phrase idioms or corporate phrasing (check the `## Email-specific tells` scrub list in the style guide), and no AI-tell-catalog patterns that fail the sincerity test. Fix silently before outputting. The audit is mandatory, not optional.
 
@@ -86,7 +86,7 @@ Also update `## Recipients`: if the round revealed something durable about a rec
 ## Rules
 
 - Match `## Good examples` over abstract rules; match my Observed patterns over generic advice.
-- Never strip warmth or polite hedging in the name of conciseness; that's my voice, not a flaw.
+- Conciseness cuts redundancy, never voice. Whatever the style guide marks as mine (warmth, hedging, directness) stays, even when a generic style rule would cut it.
 - One tight round of clarifying questions, not many.
 - Output drafts as paste-ready email text, not buried in prose.
 - Show the change before writing to the style guide or saving a draft; never silently edit my notes.

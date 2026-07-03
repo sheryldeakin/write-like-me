@@ -45,7 +45,7 @@ Promotion mechanics that keep the system honest:
 
 Every promoted rule feeds the mandatory pre-output audit: before the user sees any draft (including every revision), the skill checks it against the scrub list and the AI-tell catalog, and fixes violations silently. This is what converts logged learnings into felt improvement; rules that aren't enforced at generation time are just notes.
 
-The audit carries one standing caveat: **the test is sincerity, not blandness.** A user's genuine warmth, hedging, or effusiveness is voice, and the audit must never strip it. Only phrasing that sounds generic or performative gets cut.
+The audit carries one standing caveat: **the test is sincerity, not blandness.** A user's genuine warmth, hedging, effusiveness, or bluntness is voice, and the audit must never strip it. Only phrasing that sounds generic or performative gets cut.
 
 ### 4. Route
 
