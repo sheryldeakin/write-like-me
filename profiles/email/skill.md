@@ -15,6 +15,8 @@ Reduce the blank-page block on email. Load my standing email style guide, take t
 - **AI-tell catalog:** `~/writing-voice/ai-writing-forbidden-patterns.md` (optional; from the repo's `reference/`)
 - **Note conventions:** none. <!-- If your notes system has rules (frontmatter, tags, linking), state them here and they apply to saved drafts. -->
 
+<!-- engine version 1.4 (2026-07-02); see CHANGELOG.md in the repo -->
+
 ## Usage
 
 - `/email <task>`: one-line task, e.g. `/email reschedule Thursday's advisor meeting to next week`
