@@ -81,6 +81,8 @@ Also update the `## Email types and tone` map: if this email fits an existing ty
 
 Also update `## Recipients`: if the round revealed something durable about a recurring recipient (register, preferences, standing context, a new chain), offer to update their entry — or create one if this looks like someone I'll email again. Same show-first rule.
 
+**Learn from replies too:** when a chain file contains the recipient's replies, mine them for durable facts about the person — their register and sign-off, stated constraints and availability ("away until August", "email is easier than meeting"), what they respond well to — and propose those into their `## Recipients` entry alongside what my own corrections revealed.
+
 ## Rules
 
 - Match `## Good examples` over abstract rules; match my Observed patterns over generic advice.

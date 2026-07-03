@@ -8,7 +8,7 @@ I have rewritten a two-line email eleven times and then closed the tab. Email ha
 
 So I built the thing I needed. I tell Claude what the email has to do, it drafts in my voice, I react in plain language ("too formal", "cut paragraph two"), and we keep going until it's right. No blank page, ever. The system also pays attention while we work: it logs what my corrections reveal about how I write, and the patterns that keep showing up become standing rules that every future draft is checked against. The first drafts keep getting closer to something I would have written on a good day.
 
-I didn't build this to outsource my writing. I built it because a five-minute email should cost five minutes, and the hours I used to lose circling one belong to work that needs them. Email is the first profile. Papers and other writing are on the roadmap, because the blank page is the same problem everywhere.
+I didn't build this to outsource my writing. I built it because a five-minute email should cost five minutes, and the hours I used to lose circling one belong to work that needs them. I can't be the only one who does this. Email is the first profile. Papers and other writing are on the roadmap, because the blank page is the same problem everywhere.
 
 ## How it works: engine vs. data
 
