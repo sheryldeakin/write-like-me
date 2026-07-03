@@ -4,11 +4,11 @@ A self-improving writing-voice system for [Claude Code](https://claude.com/claud
 
 ## Why this exists
 
-I can run experiments, debug a training pipeline, and write a research paper. I have also rewritten a two-line email eleven times and then closed the tab. Email has always been a dead stop for me: a five-minute task that parks itself in front of everything else on my list and idles there for days while I avoid it like the plague. This works about as well as you'd expect for the format the entire professional world runs on.
+I have rewritten a two-line email eleven times and then closed the tab. Email has always been a dead stop for me: a five-minute task that parks itself in front of everything else on my list and idles there for days while I avoid it like the plague. I know how ridiculous that is. Knowing has never fixed it.
 
-So I built the thing I needed. I tell Claude what the email has to do, it drafts in my voice, I react in plain language ("too formal", "cut paragraph two"), and we iterate until it's right. No blank page, ever. The system also pays attention: it logs what my corrections reveal about how I write, and the patterns that keep showing up become standing rules that every future draft is checked against. The first drafts keep getting closer to something I would have written on a good day.
+So I built the thing I needed. I tell Claude what the email has to do, it drafts in my voice, I react in plain language ("too formal", "cut paragraph two"), and we keep going until it's right. No blank page, ever. The system also pays attention while we work: it logs what my corrections reveal about how I write, and the patterns that keep showing up become standing rules that every future draft is checked against. The first drafts keep getting closer to something I would have written on a good day.
 
-The point was never to outsource my writing. The point is that a five-minute email should cost five minutes, and the hours I used to spend circling one are now free for work that deserves them. Email is the first profile. Papers and other writing are on the roadmap, because the blank page is the same enemy everywhere.
+I didn't build this to outsource my writing. I built it because a five-minute email should cost five minutes, and the hours I used to lose circling one belong to work that needs them. Email is the first profile. Papers and other writing are on the roadmap, because the blank page is the same problem everywhere.
 
 ## How it works: engine vs. data
 
