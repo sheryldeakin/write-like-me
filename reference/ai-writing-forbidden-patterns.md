@@ -1,4 +1,4 @@
-# AI writing — forbidden patterns
+# AI writing: forbidden patterns
 
 ## What this is
 
@@ -10,14 +10,14 @@ One caveat when applying this to personal writing (email especially): the test i
 
 ## Use when
 
-- **Before drafting** — skim to remind yourself which moves to avoid.
-- **After drafting** — run a search-and-replace audit on the prose against the patterns below.
-- **When reviewing AI-generated drafts** — these are the highest-yield things to strip first.
+- **Before drafting:** skim to remind yourself which moves to avoid.
+- **After drafting:** run a search-and-replace audit on the prose against the patterns below.
+- **When reviewing AI-generated drafts:** these are the highest-yield things to strip first.
 
 ## A. Punctuation and formatting
 
-- Em-dashes (—) — replace with commas, parentheses, semicolons, or split into separate sentences
-- Inline italics (`*word*` mid-sentence for emphasis) — structural italics for citations or proper terminology only
+- Em-dashes (—): replace with commas, parentheses, semicolons, or split into separate sentences
+- Inline italics (`*word*` mid-sentence for emphasis): structural italics for citations or proper terminology only
 - Inline bold mid-sentence (`**word**` for emphasis, not for bullet labels or headers)
 - Hyphenated emphasis as em-dash substitute
 - Bold-then-italic combinations

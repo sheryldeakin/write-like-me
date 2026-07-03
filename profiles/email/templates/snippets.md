@@ -1,6 +1,6 @@
 # Email snippets
 
-Reusable building blocks so I never start cold. Seeded with neutral examples — swap in and add my own real phrasings over time (the `/email` skill proposes calibrations as it learns; keep this file agreeing with the Phrasing bank in the style guide).
+Reusable building blocks so I never start cold. Seeded with neutral examples; swap in and add my own real phrasings over time (the `/email` skill proposes calibrations as it learns; keep this file agreeing with the Phrasing bank in the style guide).
 
 ## Warm openers
 
@@ -13,7 +13,7 @@ Use when there's any prior relationship. Match the specificity to the actual his
 
 ## Cold / first-contact openers
 
-No prior relationship — keep it brief and respectful, skip the assumed warmth.
+No prior relationship: keep it brief and respectful, skip the assumed warmth.
 
 - "I'm reaching out because ___."
 - "My name is ___ and I'm ___. I'm writing regarding ___."
@@ -28,7 +28,7 @@ No prior relationship — keep it brief and respectful, skip the assumed warmth.
 
 ## Considerate closes
 
-- "No rush at all — whenever is convenient for you."
+- "No rush at all, whenever is convenient for you."
 - "Please let me know if another time works better."
 - "Happy to adjust if any of this doesn't suit."
 - "I really appreciate your help with this."
@@ -44,8 +44,8 @@ No prior relationship — keep it brief and respectful, skip the assumed warmth.
 
 Short scaffolds for recurring email types. Fill the blanks; adjust the rung.
 
-- **Following up** — "I wanted to follow up on my note from ___, in case it slipped past. No rush at all — just flagging it's still open on my end."
-- **Declining / saying no** — "Thank you so much for thinking of me for ___. Unfortunately I'm not able to ___ right now, but I really appreciate the offer."
-- **Asking for an extension** — "I wanted to check whether there might be any flexibility on the ___ deadline. ___ [brief honest reason]. I completely understand if that's not possible."
-- **Scheduling / rescheduling** — "Would any of these times work for you: ___? Happy to find another slot if none of these are convenient."
-- **Customer service / admin issue** — "I'm writing about ___. [One-line description of the issue.] I'm hoping to ___ [resolution I want]. Could you let me know the best way to sort this out?"
+- **Following up:** "I wanted to follow up on my note from ___, in case it slipped past. No rush at all, just flagging it's still open on my end."
+- **Declining / saying no:** "Thank you so much for thinking of me for ___. Unfortunately I'm not able to ___ right now, but I really appreciate the offer."
+- **Asking for an extension:** "I wanted to check whether there might be any flexibility on the ___ deadline. ___ [brief honest reason]. I completely understand if that's not possible."
+- **Scheduling / rescheduling:** "Would any of these times work for you: ___? Happy to find another slot if none of these are convenient."
+- **Customer service / admin issue:** "I'm writing about ___. [One-line description of the issue.] I'm hoping to ___ [resolution I want]. Could you let me know the best way to sort this out?"

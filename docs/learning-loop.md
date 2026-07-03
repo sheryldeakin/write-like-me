@@ -13,7 +13,7 @@ The boundary is the `## Personalize` block at the top of each skill file: paths 
 
 ### 1. Observe
 
-After each finished piece, the skill reflects on what the user's reactions revealed and proposes one terse, dated bullet for the style guide's `## Observed patterns` log. Always shown before writing — the user approves every learning.
+After each finished piece, the skill reflects on what the user's reactions revealed and proposes one terse, dated bullet for the style guide's `## Observed patterns` log. Always shown before writing; the user approves every learning.
 
 The highest-signal entry format is an exact before/after pair:
 
@@ -43,7 +43,7 @@ Promotion mechanics that keep the system honest:
 
 ### 3. Audit
 
-Every promoted rule feeds the mandatory pre-output audit: before the user sees any draft (including every revision), the skill checks it against the scrub list and the AI-tell catalog, and fixes violations silently. This is what converts logged learnings into felt improvement — rules that aren't enforced at generation time are just notes.
+Every promoted rule feeds the mandatory pre-output audit: before the user sees any draft (including every revision), the skill checks it against the scrub list and the AI-tell catalog, and fixes violations silently. This is what converts logged learnings into felt improvement; rules that aren't enforced at generation time are just notes.
 
 The audit carries one standing caveat: **the test is sincerity, not blandness.** A user's genuine warmth, hedging, or effusiveness is voice, and the audit must never strip it. Only phrasing that sounds generic or performative gets cut.
 
@@ -60,14 +60,14 @@ Real approved examples (the style guide's `## Good examples`) outrank every writ
 Voice varies by audience. A `## Recipients` section holds one entry per recurring recipient: formality rung, register, standing context, links to prior drafts. Two enforcement details:
 
 - Prior drafts to the same person are checked to **avoid reusing exact phrases** (gratitude lines and closers age fastest).
-- A new recipient is not a cold start: the closest entry in the types map plus the global voice layers covers everything except person-specific context — which is exactly and only what the skill asks about.
+- A new recipient is not a cold start: the closest entry in the types map plus the global voice layers covers everything except person-specific context, which is exactly and only what the skill asks about.
 
 ## What "improving the skill" means
 
 Three distinct things improve, at three speeds:
 
-1. **The data** improves every use (observed patterns, promotions) — private, automatic.
-2. **The engine** improves when a process gap is found (a missed audit, a better promotion rule) — those changes belong below the Personalize line and are shareable to everyone via this repo.
-3. **The seed templates** improve when a FILL-ME prompt turns out to confuse new users — also shareable.
+1. **The data** improves every use (observed patterns, promotions). Private, automatic.
+2. **The engine** improves when a process gap is found (a missed audit, a better promotion rule). Those changes belong below the Personalize line and are shareable to everyone via this repo.
+3. **The seed templates** improve when a FILL-ME prompt turns out to confuse new users. Also shareable.
 
 When you fix something locally, ask which of the three it is; that answers where the change goes.
