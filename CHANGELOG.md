@@ -2,6 +2,10 @@
 
 Engine versions are stamped in each skill file just below the Personalize fence. When the engine version here is newer than yours, replace everything below your fence with the repo version; your Personalize block survives.
 
+## 1.6 (2026-07-02)
+
+- New: shared core (`templates/shared-core.md`). One cross-profile file every profile reads in addition to its own style guide, so a universal rule (like "no em dashes") is learned once and inherited everywhere. Two routes in: a promotion that is plainly format/mechanics level is offered to shared-core instead of a local scrub list; and when the skill finds the same rule already promoted in another profile, it offers to consolidate both copies up into shared-core. Wired into the email engine (Step 1 reads it, Step 3 audits against it, Step 6 routes to it) and the generator (creates it if missing, generated profiles read and contribute to it).
+
 ## 1.5 (2026-07-02)
 
 - Generator hardened after a clean-room test (simulated `/new-profile weekly lesson scripts` with a fresh agent). Fixes: explicit slug derivation + command-collision check; a "generate, don't transplant" rule so no email wording (recipient, Subject line, sign-off, reply-mining) survives into non-email profiles; anatomy sections tagged [loop] / [adapt] / [drop-if-NA] so single-audience and public genres drop what doesn't fit; a mandatory anti-patterns slot so a stated pet peeve can't fall through; low-confidence research conventions flagged; generation-metadata stamp on generated skills to enable `--regenerate` against a newer engine.

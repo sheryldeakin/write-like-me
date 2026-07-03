@@ -51,6 +51,8 @@ profiles/
       drafts-index.md index for your saved drafts folder
 generator/
   skill.md            /new-profile: generate a voice profile for any writing category
+templates/
+  shared-core.md      cross-profile rules every profile reads (learned once, inherited everywhere)
 docs/
   learning-loop.md    the full learning protocol (observe -> log -> promote -> audit)
   example-walkthrough.md   three weeks of the loop with a fictional user
@@ -60,7 +62,7 @@ reference/
 
 ## Beyond email: any category of writing
 
-Email is the hand-built reference profile, but the engine is category-agnostic. `generator/skill.md` installs as `/new-profile`: name a kind of writing you do repeatedly (weekly lesson scripts, client proposals, grant applications), and it interviews you, optionally researches the genre's conventions, and generates a complete profile: a style guide in the standard anatomy plus a drafting skill running the exact same learning loop. Your pasted examples outrank the researched conventions wherever they conflict, and the profile calibrates itself from there the same way email does.
+Email is the hand-built reference profile, and it plays two roles: the fastest on-ramp (copy its templates and run `/email` if email is your pain point) and a worked example of the standard profile anatomy that every generated profile follows, so reading `profiles/email/` shows you what a mature profile looks like before you generate your own. The engine underneath it is category-agnostic. `generator/skill.md` installs as `/new-profile`: name a kind of writing you do repeatedly (weekly lesson scripts, client proposals, grant applications), and it interviews you, optionally researches the genre's conventions, and generates a complete profile: a style guide in the standard anatomy plus a drafting skill running the exact same learning loop. Your pasted examples outrank the researched conventions wherever they conflict, and the profile calibrates itself from there the same way email does.
 
 ## The AI-tell catalog
 

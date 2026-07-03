@@ -13,9 +13,10 @@ Reduce the blank-page block on email. Load my standing email style guide, take t
 - **Snippets:** `~/writing-voice/snippets.md`
 - **Drafts folder:** `~/writing-voice/drafts/`
 - **AI-tell catalog:** `~/writing-voice/ai-writing-forbidden-patterns.md` (optional; from the repo's `reference/`)
+- **Shared core:** `~/writing-voice/shared-core.md` (cross-profile rules; from the repo's `templates/`)
 - **Note conventions:** none. <!-- If your notes system has rules (frontmatter, tags, linking), state them here and they apply to saved drafts. -->
 
-<!-- engine version 1.5 (2026-07-02); see CHANGELOG.md in the repo -->
+<!-- engine version 1.6 (2026-07-02); see CHANGELOG.md in the repo -->
 
 ## Usage
 
@@ -26,7 +27,7 @@ Reduce the blank-page block on email. Load my standing email style guide, take t
 
 ### Step 1: Load my voice
 
-Read the style guide in full: Core voice, the four-part skeleton, the tone ladder, conciseness rules, anti-patterns, the `## Email-specific tells` scrub list, the `## Phrasing bank` (my calibrated go-to phrasings), the `## Email types and tone` map, the `## Recipients` profiles, `## Observed patterns`, and any `## Good examples`. Read the snippets file for more reusable phrasings. The `## Good examples` (real emails I liked) outrank any written rule; match those first. Reach for the `## Phrasing bank` phrasings as defaults. In the `## Email types and tone` map, find the entry closest to the email I'm writing and start the tone from there (open its linked draft as a worked example if useful). Honor the AI-tell catalog with the sincerity caveat: whatever the style guide marks as my voice (warmth, hedging, bluntness, formality) is voice, not a tell. The test is sincerity, not blandness.
+Read the style guide in full: Core voice, the four-part skeleton, the tone ladder, conciseness rules, anti-patterns, the `## Email-specific tells` scrub list, the `## Phrasing bank` (my calibrated go-to phrasings), the `## Email types and tone` map, the `## Recipients` profiles, `## Observed patterns`, and any `## Good examples`. Read the snippets file for more reusable phrasings. The `## Good examples` (real emails I liked) outrank any written rule; match those first. Reach for the `## Phrasing bank` phrasings as defaults. In the `## Email types and tone` map, find the entry closest to the email I'm writing and start the tone from there (open its linked draft as a worked example if useful). Also read the shared-core file: its scrub list and voice principles apply to this profile too, on top of the style guide's own. Honor the AI-tell catalog with the sincerity caveat: whatever the style guide marks as my voice (warmth, hedging, bluntness, formality) is voice, not a tell. The test is sincerity, not blandness.
 
 ### Step 2: Understand the task
 
@@ -49,7 +50,7 @@ If the task line already answers these, skip the questions and draft.
 
 Write the email using the four-part skeleton at the right rung, in the register my Core voice and the recipient's entry prescribe. Clear ask; clear next step left open enough for them to adjust. Keep it concise without flattening my voice.
 
-**Before showing any draft (including every revision in Step 4), run a final audit on the text:** no formatting tells, no emojis, no set-phrase idioms or corporate phrasing (check the `## Email-specific tells` scrub list in the style guide), and no AI-tell-catalog patterns that fail the sincerity test. Fix silently before outputting. The audit is mandatory, not optional.
+**Before showing any draft (including every revision in Step 4), run a final audit on the text:** no formatting tells, no emojis, no set-phrase idioms or corporate phrasing (check the `## Email-specific tells` scrub list in the style guide AND the shared-core scrub list), and no AI-tell-catalog patterns that fail the sincerity test. Fix silently before outputting. The audit is mandatory, not optional.
 
 Output the draft as plain email text (Subject line + body), ready to paste, not wrapped in commentary. Briefly note the rung you chose and any assumption you made, below the draft.
 
@@ -78,6 +79,8 @@ Show me the addition before writing it. Keep entries short. If nothing new was r
 **Promotion mechanics (check on every append):**
 - Before appending, scan the log for a similar existing entry. A second occurrence is the promotion trigger: propose promoting the rule to its proper home (Core voice, Phrasing bank, scrub list, or a Recipients entry). Don't do it silently.
 - When a rule is promoted, don't delete the log bullets; suffix them with "(promoted to X, YYYY-MM-DD)". The log is the audit trail.
+- **Route universal rules to shared core.** If the rule being promoted is plainly format or mechanics level (punctuation, spacing, a tell with nothing to do with email specifically), offer to promote it to the shared-core file instead of this profile's scrub list, so every profile inherits it.
+- **Cross-profile detection.** When proposing a promotion, glance at the other profile style guides in the voice-data root. If the same rule is already promoted in another profile, that is evidence it is universal: offer to consolidate it into shared core and leave a one-line "see shared-core" pointer in each local list.
 - If a new observation contradicts an older one, newest wins: append the new entry and suffix the old one with "(superseded YYYY-MM-DD)".
 - If unpromoted entries exceed ~25, propose a distillation pass (promote, consolidate, mark) instead of appending blindly.
 

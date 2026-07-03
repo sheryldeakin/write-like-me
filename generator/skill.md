@@ -12,6 +12,7 @@ Install: copy this file to `~/.claude/commands/new-profile.md` and edit the Pers
 - **Commands folder:** `~/.claude/commands/` (where generated skills go)
 - **Web research:** allowed <!-- set to "not allowed" to skip the conventions-research step -->
 - **Shared AI-tell catalog:** `~/writing-voice/ai-writing-forbidden-patterns.md` (one copy, shared across all profiles)
+- **Shared core:** `~/writing-voice/shared-core.md` (cross-profile learned rules; one copy, shared across all profiles)
 
 ## Usage
 
@@ -46,9 +47,13 @@ Search for the genre's established conventions and structures: how practitioners
 
 Present both for reaction before using them. If research is not allowed or turns up little, derive the skeleton from the pasted examples alone and say so; if there are also no examples, say the skeleton is provisional and lean on cold-start calibration at first use.
 
-### Step 2b: Ensure the voice-data root exists
+### Step 2b: Ensure the voice-data root, catalog, and shared core exist
 
-Before generating, check that the voice-data root exists and that the shared AI-tell catalog is present at the path in the Personalize block. If the root is missing, create it. If the catalog is missing, copy it from the write-like-me repo's `reference/ai-writing-forbidden-patterns.md`, or, if the repo isn't available on this machine, tell the user where to get it and set the generated skill's catalog line to "(none yet)" so it doesn't reference a file that isn't there. A generated skill must never point its Personalize block at a file that doesn't exist.
+Before generating, check that the voice-data root exists and that the shared AI-tell catalog is present at the path in the Personalize block. If the root is missing, create it. If the catalog is missing, copy it from the write-like-me repo's `reference/ai-writing-forbidden-patterns.md`, or, if the repo isn't available on this machine, tell the user where to get it and set the generated skill's catalog line to "(none yet)" so it doesn't reference a file that isn't there.
+
+Also check for the shared-core file (`{voice-data root}/shared-core.md`), the cross-profile rules every profile reads. If it is missing, create it from the repo's `templates/shared-core.md`. Every generated profile reads and contributes to this one file, so universal rules (like "no em dashes") are learned once and inherited everywhere.
+
+A generated skill must never point its Personalize block at a file that doesn't exist.
 
 ### Step 3: Generate the style guide
 
@@ -72,7 +77,7 @@ Critical rule: **generate, don't transplant.** Do not copy email-template prose 
 
 ### Step 4: Generate the skill
 
-Create `{commands folder}/{slug}.md`: the email engine adapted to this genre. Same six steps and same mechanics (load voice; understand task with cold-start; draft with the mandatory pre-output audit; iterate on plain-language reactions; offer to save with chains; learn with promotion mechanics), but adapt these genre-specific points rather than copying them:
+Create `{commands folder}/{slug}.md`: the email engine adapted to this genre. Same six steps and same mechanics (load voice, plus the shared-core file, on top of the style guide; understand task with cold-start; draft with the mandatory pre-output audit against both the local scrub list and shared-core; iterate on plain-language reactions; offer to save with chains; learn with promotion mechanics including shared-core routing and cross-profile detection), but adapt these genre-specific points rather than copying them:
 
 - **Output format** in Step 3: the email engine says "plain email text (Subject line + body)". Replace this with the genre's real output shape (a lesson script has beat headers, not a subject line). Do not leave "Subject line" in a non-email skill.
 - **Context-profile branch** in Step 2: match section 8 above. For a single recurring audience or a public genre, remove the "known recipient vs. new recipient, pick the closest entry" branching; there is nothing to disambiguate. Keep only "load the audience context and avoid repeating recent pieces."

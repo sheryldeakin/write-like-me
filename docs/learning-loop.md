@@ -51,6 +51,8 @@ The audit carries one standing caveat: **the test is sincerity, not blandness.**
 
 Not every learning belongs to this profile. When a correction generalizes ("never em dashes, anywhere"), it should live at the most general applicable layer, and the profile keeps only an *echo* that names its canonical source. Echoes at the point of enforcement are deliberate and good; unattributed copies drift.
 
+The **shared-core file** is where cross-profile rules live. Every profile reads it in addition to its own style guide and audits against it. Rules reach it two ways: a promotion that is plainly format or mechanics level is routed there instead of a local scrub list; and when a rule turns out to be promoted in two profiles independently, that is evidence it is universal, so the skill offers to consolidate both copies up into shared-core and leave "see shared-core" pointers behind. Genre-specific rules never go there. This is the same idea as a "where learnings go" routing table: one rule, one canonical home, universal rules at the top.
+
 ## Why examples outrank rules
 
 Real approved examples (the style guide's `## Good examples`) outrank every written rule, because rules are lossy compressions of taste. The skill matches examples first, rules second, generic writing advice never. This is also why the fastest way to bootstrap a profile is pasting in 2-3 real pieces the user was happy with.
