@@ -43,6 +43,8 @@ If the task line already answers these, skip the questions and draft.
 
 ### Step 3: Draft
 
+**Cold start:** if the style guide is mostly unseeded (no Good examples, empty Phrasing bank), don't fake confidence in a voice I haven't shown you. Fold one extra question into Step 2's single round: ask whether I can paste an email I actually sent that sounds like me (to this recipient, ideally). If I can, mine it before drafting: propose Core voice bullets, Phrasing bank entries, and a default rung for the style guide. If I can't, draft two short versions of the email in deliberately different registers (e.g. warmer vs. more direct) and let me pick and react; log what the pick reveals as the first Observed patterns entries. This extra step disappears once the guide has real data.
+
 Write the email using the four-part skeleton at the right rung, in the register my Core voice and the recipient's entry prescribe. Clear ask; clear next step left open enough for them to adjust. Keep it concise without flattening my voice.
 
 **Before showing any draft (including every revision in Step 4), run a final audit on the text:** no formatting tells, no emojis, no set-phrase idioms or corporate phrasing (check the `## Email-specific tells` scrub list in the style guide), and no AI-tell-catalog patterns that fail the sincerity test. Fix silently before outputting. The audit is mandatory, not optional.
