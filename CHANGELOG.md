@@ -2,6 +2,10 @@
 
 Engine versions are stamped in each skill file just below the Personalize fence. When the engine version here is newer than yours, replace everything below your fence with the repo version; your Personalize block survives.
 
+## 1.5 (2026-07-02)
+
+- Generator hardened after a clean-room test (simulated `/new-profile weekly lesson scripts` with a fresh agent). Fixes: explicit slug derivation + command-collision check; a "generate, don't transplant" rule so no email wording (recipient, Subject line, sign-off, reply-mining) survives into non-email profiles; anatomy sections tagged [loop] / [adapt] / [drop-if-NA] so single-audience and public genres drop what doesn't fit; a mandatory anti-patterns slot so a stated pet peeve can't fall through; low-confidence research conventions flagged; generation-metadata stamp on generated skills to enable `--regenerate` against a newer engine.
+
 ## 1.4 (2026-07-02)
 
 - New: `/new-profile` generator (`generator/skill.md`). Creates a complete voice profile (style guide + skill) for any writing category from an interview, optional genre research, and the standard profile anatomy.
