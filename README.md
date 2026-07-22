@@ -1,3 +1,5 @@
+![write-like-me: a self-improving writing-voice system for Claude Code](assets/banner.svg)
+
 # write-like-me
 
 A self-improving writing-voice system for [Claude Code](https://claude.com/claude-code). It drafts in your voice, learns from every correction you make, and gets better the more you use it.
@@ -10,6 +12,10 @@ So I built the thing I needed. I tell Claude what the email has to do, it drafts
 
 I didn't build this to outsource my writing. I built it because a five-minute email should cost five minutes, and the hours I used to lose circling one belong to work that needs them. I can't be the only one who does this. Email is the first profile. Papers and other writing are on the roadmap, because the blank page is the same problem everywhere.
 
+![A /email session: the draft is audited for AI tells before it ever reaches you](assets/demo-status.gif)
+
+The em dash never reaches you. Neither does "delve into" or "rest assured". Those come out of the built-in [AI-tell catalog](reference/ai-writing-forbidden-patterns.md), stripped in the audit before the draft is shown. The only thing you ever teach it is your voice.
+
 ## How it works: engine vs. data
 
 The system splits into two layers:
@@ -19,6 +25,8 @@ The system splits into two layers:
 
 You clone the engine; your data grows locally. Improvements to the engine can be shared without your data ever leaving your machine.
 
+The line between them is a `## Personalize` block at the top of the skill file: your paths and conventions live above it, the engine below. Update the engine by pasting a new version below your block; your data and settings survive untouched.
+
 ## The learning loop
 
 1. **Draft.** The skill reads your style guide (voice rules, phrasing bank, recipient profiles) and drafts. Before showing you anything, it audits the text against your scrub list and the [AI-tell catalog](reference/ai-writing-forbidden-patterns.md).
@@ -26,6 +34,14 @@ You clone the engine; your data grows locally. Improvements to the engine can be
 3. **Observe.** After the email settles, the skill proposes a one-line dated entry for your observed-patterns log. The highest-value format is an exact before/after pair: `"off the table" -> "we weren't able to use"`.
 4. **Promote.** The second time a pattern shows up, the skill proposes promoting it to a standing rule (core voice, phrasing bank, scrub list, or a recipient profile). Promoted log entries are marked, not deleted; contradictions resolve newest-wins. The log is the audit trail.
 5. **Audit.** Promoted rules feed the mandatory pre-output audit, so every future draft is checked against everything the system has learned about you.
+
+![Steering a draft in plain language, and the patterns it logs from your reactions](assets/demo-iterate.gif)
+
+You never have to name the problem in writing terms. "Too formal" and "cut the compliment" are enough; the skill turns your reactions into dated entries, and the second time a pattern shows up it gets promoted into a standing rule.
+
+Do that for a few weeks and the first draft stops needing corrections:
+
+![Week 1 correcting a lot, week 6 sending with zero edits](assets/demo-compound.gif)
 
 Full protocol: [docs/learning-loop.md](docs/learning-loop.md). To see the loop play out over three weeks with a fictional user, read the [example walkthrough](docs/example-walkthrough.md).
 
